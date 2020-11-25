@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Gotham";
+	src: local("Gotham"), url(./fonts/Gotham/Gotham-Black.otf) format("otf");
+}
+
+body {
+	margin: 0;
+	font-family: "Gotham", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
